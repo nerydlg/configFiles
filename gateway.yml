@@ -8,7 +8,7 @@ server:
 eureka:
   client:
     region: default
-    registryFetchIntervalSeconds: 15
+    registryFetchIntervalSeconds: 5
 
 zuul:
   routes:
